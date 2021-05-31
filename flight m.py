@@ -33,7 +33,6 @@
                     admin1.title("Success!")
                     tk.Label(master=admin1, text="Standard User Successfully Deleted!").grid(row=1, column=1)
                     delete_users_scheduled.destroy()
-        
         delete_users_scheduled = tk.Tk()
         delete_users_scheduled.title("Delete A User")
         tk.Label(master=delete_users_scheduled, text="Enter the Username").grid(row=1, column=0)
@@ -261,3 +260,6 @@ def login():  # login function
 
 login()
 
+
+        
+        
